@@ -45,7 +45,7 @@ echo -e "\n${GREEN}Problema seleccionado aleatoriamente:${NC}"
 echo -e "${YELLOW}$random_problem${NC}"
 echo -e "${GREEN}URL: https://codeforces.com/problemset/problem/${contest_id}/${problem_index}${NC}"
 
-# Opcional: Limpiar archivos temporales
+# Limpiar archivos temporales
 read -p "¿Deseas eliminar los archivos temporales? (y/n): " -n 1 -r
 echo
 if [[ $REPLY =~ ^[Yy]$ ]]; then
