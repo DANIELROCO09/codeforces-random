@@ -22,9 +22,9 @@ Este script en Bash descarga problemas aleatorios de Codeforces con un rango de 
 1. Clona este repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/codeforces-random.git
+git clone https://github.com/DANIELROCO09/codeforces-random
 cd codeforces-random
-
+```
 2. Da permisos de ejecución al script:
 chmod +x codeforces_random.sh
 
@@ -33,7 +33,7 @@ chmod +x codeforces_random.sh
 
 🧼 Limpieza
 Al final de la ejecución, se te preguntará si deseas eliminar los archivos temporales (problems.json, filtered_problems.txt).
-
+```
 ✨ Ejemplo de salida
 Descargando lista de problemas de Codeforces...
 Filtrando problemas de nivel 800 a 900...
@@ -42,4 +42,4 @@ Se encontraron 1234 problemas en el rango 800-900.
 Problema seleccionado aleatoriamente:
 1234A - Helpful Maths (Dificultad: 800)
 URL: https://codeforces.com/problemset/problem/1234/A
-
+```
